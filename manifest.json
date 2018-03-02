@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "arxiv-url",
+  "version": "0.0",
+
+  "description": "Replace arXiv pdf links with abstract links.",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["arxiv-url.js"]
+    }
+  ]
+
+}
